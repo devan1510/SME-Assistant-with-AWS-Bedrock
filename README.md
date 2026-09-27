@@ -38,7 +38,7 @@ API Gateway
       │
       ▼
 Streamlit Application
-
+```
 Application
 🏗️ Architecture
 
@@ -50,7 +50,8 @@ AWS Lambda – Serverless compute and request processing
 Amazon Bedrock – Foundation model access and AI inference
 Amazon CloudWatch – Logging, monitoring and observability
 Amazon Bedrock Guardrails – Responsible AI and content control
-Architecture Flow
+**Architecture Flow**
+```
 ┌──────────────────────┐
 │   Equipment SME      │
 │      / User          │
@@ -106,7 +107,7 @@ Architecture Flow
        │ Bedrock          │
        │ Guardrails       │
        └──────────────────┘
-
+```
 **Features:**
 Accepts a question from the user.
 Sends the request through an API Gateway endpoint.
